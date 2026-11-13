@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ECOAI — AI-powered environmental awareness and sustainability platform.">
+  <title>ECOAI | Intelligence for a Greener Tomorrow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#home">ECO<span>AI.</span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  <nav id="nav">
+    <a href="#dashboard">Dashboard</a><a href="#detection">AI Detection</a><a href="#assistant">EcoBot</a>
+    <a href="#calculator">Calculator</a><a href="#challenges">Challenges</a><a href="#about">About</a>
+  </nav>
+  <a class="nav-cta" href="#dashboard">Explore platform ↗</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">✳ ARTIFICIAL INTELLIGENCE FOR EARTH</p>
+    <h1>INTELLIGENCE<br>FOR A <em>GREENER</em><br>TOMORROW.</h1>
+    <p class="lead">Empowering a sustainable planet through Artificial Intelligence. Discover environmental challenges, understand their impact, and take action with AI.</p>
+    <div class="actions"><a class="button" href="#dashboard">Explore Environment ↗</a><a class="button secondary" href="#detection">Discover AI Solutions</a></div>
+    <div class="hero-points"><span><b>01</b> Understand</span><span><b>02</b> Analyse</span><span><b>03</b> Take action</span></div>
+  </div>
+  <div class="earth-wrap" aria-label="Illustration of planet Earth">
+    <div class="earth"><i class="land land-one"></i><i class="land land-two"></i><i class="land land-three"></i></div>
+    <div class="float-card float-a">◉ Planet health<strong>Our shared future</strong></div>
+    <div class="float-card float-b">✳ Green energy<strong>Renewable future</strong></div>
+    <div class="float-card float-c">⌁ AI intelligence<strong>Powered by data</strong></div>
+  </div>
+</section>
+
+<section class="section" id="dashboard">
+  <div class="section-heading"><div><p class="eyebrow">01 / ENVIRONMENTAL INTELLIGENCE</p><h2>Environmental dashboard.</h2><p class="muted">Explore sample indicators that explain the relationship between human activity and the health of our planet.</p></div><span class="tag">DEMO DATA · NOT LIVE</span></div>
+  <div class="stats-grid">
+    <article class="stat"><span>🌫 Air Quality Index</span><strong>42 <small>AQI</small></strong><label class="good">● Good · Illustrative</label></article>
+    <article class="stat"><span>🌡 Temperature</span><strong>24.8<small>°C</small></strong><label>Sample reading</label></article>
+    <article class="stat"><span>🏭 Carbon emissions</span><strong>36.8<small> Gt</small></strong><label>Illustrative annual scale</label></article>
+    <article class="stat"><span>💧 Water quality</span><strong>86<small>/100</small></strong><label>Sample quality score</label></article>
+    <article class="stat"><span>🌳 Forest coverage</span><strong>31<small>%</small></strong><label>Illustrative indicator</label></article>
+    <article class="stat"><span>⚡ Renewable energy</span><strong>30<small>%</small></strong><label>Illustrative energy share</label></article>
+  </div>
+  <div class="dashboard-grid">
+    <article class="panel"><div class="panel-title"><div><h3>Environmental trend</h3><p>Illustrative monthly air quality index</p></div><span class="tag">AQI</span></div>
+      <div class="chart" role="img" aria-label="Illustrative air quality trend chart">
+        <div class="chart-lines"><i></i><i></i><i></i><i></i></div>
+        <svg viewBox="0 0 600 180" preserveAspectRatio="none"><defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#82d69a" stop-opacity=".35"/><stop offset="1" stop-color="#82d69a" stop-opacity="0"/></linearGradient></defs><path d="M0 105 L85 85 L170 110 L255 60 L340 78 L425 42 L510 65 L600 28 L600 160 L0 160Z" fill="url(#fill)"/><path d="M0 105 L85 85 L170 110 L255 60 L340 78 L425 42 L510 65 L600 28" fill="none" stroke="#8bdfa0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="months"><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span></div>
+      </div><p class="fine-print">Conceptual data series for project demonstration only.</p>
+    </article>
+    <article class="panel"><h3>Resource sustainability</h3><p class="muted small">Illustrative progress indicators</p>
+      <div class="progress-list"><div><label>Renewable energy <b>72%</b></label><div class="progress"><i style="width:72%"></i></div></div><div><label>Water conservation <b>64%</b></label><div class="progress"><i style="width:64%"></i></div></div><div><label>Forest protection <b>58%</b></label><div class="progress"><i style="width:58%"></i></div></div><div><label>Waste recycling <b>81%</b></label><div class="progress"><i style="width:81%"></i></div></div></div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="detection">
+  <div class="section-heading"><div><p class="eyebrow">02 / COMPUTER VISION CONCEPT</p><h2>AI pollution detection.</h2><p class="muted">Upload an environmental image to explore a prototype pollution-analysis workflow.</p></div><span class="tag">SIMULATED ANALYSIS</span></div>
+  <div class="two-col">
+    <article class="panel">
+      <h3>Upload environmental image</h3><p class="muted small">Try a photo of a river, roadside, forest or waste materials.</p>
+      <label class="upload" for="imageUpload"><span class="upload-icon">⌁</span><b>Choose an image</b><small>JPG, PNG or WEBP</small><input id="imageUpload" type="file" accept="image/*"></label>
+      <div id="previewArea" class="preview hidden"><img id="preview" alt="Uploaded environmental sample"><p id="filename" class="fine-print"></p></div>
+      <button id="analyseBtn" class="button full" disabled>Analyse environment ↗</button>
+    </article>
+    <article class="panel report">
+      <h3>Analysis report</h3><p class="muted small">Prototype output · Not a trained AI model</p>
+      <div id="emptyReport" class="empty-state"><span>⌘</span><p>Your analysis will appear here.</p><small>Upload an image to begin the demonstration.</small></div>
+      <div id="analysisReport" class="hidden">
+        <span class="tag">SIMULATED RESULT</span><h3 id="resultTitle" class="result-title">Environmental assessment</h3><p id="resultDescription" class="muted small"></p>
+        <div id="resultMetrics" class="metric-list"></div>
+        <div class="advice"><b>Suggested action</b><p id="resultAdvice"></p></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="assistant">
+  <div class="section-heading"><div><p class="eyebrow">03 / CONVERSATIONAL AI CONCEPT</p><h2>Meet your EcoBot.</h2><p class="muted">An interactive environmental knowledge assistant prototype.</p></div><span class="tag">RULE-BASED DEMO</span></div>
+  <div class="two-col">
+    <article class="panel">
+      <div class="bot-heading"><span class="bot-avatar">🌱</span><div><b>EcoBot</b><small>Your sustainability companion · Demo</small></div><span class="online">ONLINE</span></div>
+      <div id="chatLog" class="chat-log" aria-live="polite"><div class="message bot">Hello! I'm EcoBot 🌿 Ask me about climate change, pollution, forests, recycling, renewable energy or sustainable living.</div></div>
+      <form id="chatForm" class="chat-form"><input id="chatInput" maxlength="300" placeholder="Ask EcoBot something..." aria-label="Message EcoBot"><button class="button" type="submit">Send ↗</button></form>
+      <div class="quick-questions"><button type="button" data-question="How can I reduce plastic waste?">Plastic waste</button><button type="button" data-question="What is climate change?">Climate change</button><button type="button" data-question="Why is renewable energy important?">Renewable energy</button></div>
+      <p class="fine-print">This is a predefined-response chatbot demonstration, not a connected generative AI model.</p>
+    </article>
+    <article class="panel feature-panel"><p class="eyebrow">SMALL STEPS. BIG IMPACT.</p><h3>Knowledge is the first step towards change.</h3><p class="muted">EcoBot makes environmental knowledge easier to explore by providing simple educational answers and practical sustainability suggestions.</p><div class="feature-list"><div><span>🌍</span><p><b>Learn</b><small>Understand environmental challenges.</small></p></div><div><span>♻️</span><p><b>Discover</b><small>Explore practical eco-friendly solutions.</small></p></div><div><span>🌿</span><p><b>Act</b><small>Make sustainable habits part of daily life.</small></p></div></div></article>
+  </div>
+</section>
+
+<section class="section" id="calculator">
+  <div class="section-heading"><div><p class="eyebrow">04 / PERSONAL SUSTAINABILITY</p><h2>Carbon footprint calculator.</h2><p class="muted">Estimate daily emissions using simplified demonstration factors. This is an educational estimate, not an audited carbon accounting tool.</p></div><span class="tag">INTERACTIVE TOOL</span></div>
+  <div class="two-col">
+    <form id="carbonForm" class="panel form-panel">
+      <label>Daily transport distance (km)<input id="distance" type="number" min="0" max="500" value="10" required></label>
+      <label>Transport type<select id="transport"><option value=".12">Petrol car (average per passenger km)</option><option value=".04">Bus</option><option value=".03">Metro / train</option><option value="0">Walking / cycling</option><option value=".07">Motorcycle</option></select></label>
+      <label>Daily electricity use (kWh)<input id="electricity" type="number" min="0" max="100" value="4" required></label>
+      <label>Daily water use (litres)<input id="water" type="number" min="0" max="1000" value="120" required></label>
+      <label>Food habit<select id="food"><option value="2.5">Meat-heavy</option><option value="1.8">Mixed diet</option><option value="1.2">Mostly vegetarian</option><option value=".9">Plant-based</option></select></label>
+      <label>Single-use plastic items per day<input id="plastic" type="number" min="0" max="100" value="2" required></label>
+      <button class="button full" type="submit">Calculate my footprint ↗</button>
+    </form>
+    <article class="panel result-panel"><p class="eyebrow">YOUR ESTIMATED RESULT</p><div class="carbon-number" id="carbonTotal">— <small>kg CO₂e/day</small></div><p class="muted small">Estimated daily carbon footprint</p>
+      <div class="advice monthly"><b>Monthly estimate</b><strong id="monthly">—</strong><small>kg CO₂e / 30 days</small></div>
+      <div class="impact-head"><b>Impact category</b><span id="impactLabel">Not calculated</span></div><div class="progress"><i id="impactBar" style="width:0%"></i></div>
+      <p id="carbonAdvice" class="muted advice-text">Enter your daily activity and calculate your estimated impact to receive personalised suggestions.</p>
+      <p class="fine-print">Simplified illustrative emission factors. Actual results vary by region, energy mix, diet and methodology.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="awareness">
+  <div class="section-heading"><div><p class="eyebrow">05 / UNDERSTAND OUR PLANET</p><h2>Environmental awareness.</h2><p class="muted">Explore environmental issues that demand collective action and intelligent solutions.</p></div></div>
+  <div class="awareness-grid">
+    <article class="awareness-card forest"><span>🌡️</span><h3>Climate Change</h3><p>Long-term changes in climate patterns driven by natural and human influences.</p></article>
+    <article class="awareness-card ocean"><span>🌲</span><h3>Deforestation</h3><p>Forest loss threatens biodiversity, ecosystems and the planet's carbon balance.</p></article>
+    <article class="awareness-card sand"><span>🌊</span><h3>Ocean Pollution</h3><p>Plastic waste and pollutants threaten marine habitats and aquatic life.</p></article>
+    <article class="awareness-card forest"><span>☀️</span><h3>Global Warming</h3><p>Rising global temperatures increase environmental risks and extreme events.</p></article>
+    <article class="awareness-card ocean"><span>🦋</span><h3>Biodiversity Loss</h3><p>Habitat destruction and other pressures put species and ecosystems at risk.</p></article>
+    <article class="awareness-card sand"><span>♻️</span><h3>Plastic Waste</h3><p>Reducing, reusing and recycling can help limit plastic pollution.</p></article>
+  </div>
+</section>
+
+<section class="section" id="recommendations">
+  <div class="section-heading"><div><p class="eyebrow">06 / SMART SUSTAINABILITY</p><h2>Better choices, greener future.</h2><p class="muted">Practical recommendations for building more sustainable everyday habits.</p></div><span class="tag">ACTION GUIDE</span></div>
+  <div class="recommendation-grid">
+    <article class="panel recommendation"><span>🚲</span><div><b>Choose greener transport</b><p>Walk, cycle, carpool or use public transport when possible.</p></div></article>
+    <article class="panel recommendation"><span>💡</span><div><b>Save electricity</b><p>Switch off unused appliances and choose energy-efficient devices.</p></div></article>
+    <article class="panel recommendation"><span>💧</span><div><b>Conserve water</b><p>Fix leaks and use water responsibly in daily activities.</p></div></article>
+    <article class="panel recommendation"><span>🥬</span><div><b>Eat more sustainably</b><p>Reduce food waste and explore plant-rich meals.</p></div></article>
+    <article class="panel recommendation"><span>♻️</span><div><b>Reduce plastic</b><p>Carry reusable bags and bottles instead of disposable items.</p></div></article>
+    <article class="panel recommendation"><span>☀️</span><div><b>Explore clean energy</b><p>Support renewable energy wherever it is accessible.</p></div></article>
+  </div>
+</section>
+
+<section class="section" id="challenges">
+  <div class="section-heading"><div><p class="eyebrow">07 / TAKE THE CHALLENGE</p><h2>Make sustainability a habit.</h2><p class="muted">Complete eco challenges, earn points and track your progress. Your progress is saved on this device.</p></div><span class="tag" id="pointsTag">0 POINTS</span></div>
+  <div class="panel challenge-progress"><div><b>Your green journey</b><span id="progressText">0 / 4 completed</span></div><div class="progress"><i id="progressBar" style="width:0%"></i></div></div>
+  <div class="challenge-grid">
+    <article class="challenge" data-id="tree"><span>🌳</span><h3>Plant a Tree</h3><p>Learn about local tree planting and take a step to support greenery.</p><label>+50 POINTS</label><button type="button" data-complete="tree">Mark complete</button></article>
+    <article class="challenge" data-id="plastic"><span>♻️</span><h3>No Plastic Day</h3><p>Avoid single-use plastics for one full day.</p><label>+30 POINTS</label><button type="button" data-complete="plastic">Mark complete</button></article>
+    <article class="challenge" data-id="water"><span>💧</span><h3>Save Water</h3><p>Practice water-saving habits throughout your day.</p><label>+25 POINTS</label><button type="button" data-complete="water">Mark complete</button></article>
+    <article class="challenge" data-id="green"><span>🌿</span><h3>Go Green Week</h3><p>Try one sustainable action every day for a week.</p><label>+75 POINTS</label><button type="button" data-complete="green">Mark complete</button></article>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="two-col about-grid"><div><p class="eyebrow">08 / ABOUT THE PROJECT</p><h2>Technology with a purpose.</h2><p class="muted">ECOAI is an academic project concept exploring how Artificial Intelligence can support environmental awareness, data interpretation and sustainable decision-making.</p><p class="muted">The platform demonstrates concepts such as computer vision, data visualisation, conversational systems and sustainability analytics in one unified experience.</p><div class="tags"><span class="tag">5TH SEMESTER · VTU</span><span class="tag">ARTIFICIAL INTELLIGENCE</span></div></div>
+    <article class="panel objectives"><h3>Project objectives</h3><div><b>01 · Environmental awareness</b><p>Make environmental information easier to understand.</p></div><div><b>02 · Intelligent analysis</b><p>Demonstrate AI concepts for environmental assessment.</p></div><div><b>03 · Personalised action</b><p>Encourage sustainable everyday decisions.</p></div><div><b>04 · Interactive learning</b><p>Use visual tools to make sustainability engaging.</p></div></article>
+  </div>
+  <div class="tech-strip"><b>TECHNOLOGY CONCEPTS</b><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Computer Vision</span><span>Data Visualisation</span><span>AI Chatbot</span></div>
+</section>
+</main>
+
+<footer><div class="footer-inner"><a class="logo" href="#home">ECO<span>AI.</span></a><p>Smarter technology. Greener planet.</p><small>5th Semester VTU · Artificial Intelligence Academic Project</small><small>© 2026 ECOAI. Educational demonstration website.</small></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
